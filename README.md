@@ -1,5 +1,6 @@
 # react-macro-rings
 
+[![npm](https://img.shields.io/npm/v/react-macro-rings.svg)](https://www.npmjs.com/package/react-macro-rings)
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![GitHub](https://img.shields.io/badge/GitHub-iamadhitya1-blue?logo=github)](https://github.com/iamadhitya1)
 ![Zero Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)
@@ -28,8 +29,7 @@
 ## Install
 
 ```bash
-# No npm package — copy src/ into your project:
-git clone https://github.com/iamadhitya1/react-macro-rings
+npm install react-macro-rings
 ```
 
 ---
@@ -39,7 +39,7 @@ git clone https://github.com/iamadhitya1/react-macro-rings
 ### `<MacroRing>`
 
 ```jsx
-import { MacroRing } from './react-macro-rings/src'
+import { MacroRing } from 'react-macro-rings'
 
 <MacroRing
   value={42}
@@ -72,7 +72,7 @@ import { MacroRing } from './react-macro-rings/src'
 ### `<MacroRingGroup>`
 
 ```jsx
-import { MacroRingGroup } from './react-macro-rings/src'
+import { MacroRingGroup } from 'react-macro-rings'
 
 <MacroRingGroup
   rings={[
@@ -132,7 +132,7 @@ import { CalorieRing } from './react-macro-rings/src'
 ## Full Dashboard Example
 
 ```jsx
-import { CalorieRing, MacroRingGroup } from './react-macro-rings/src'
+import { CalorieRing, MacroRingGroup } from 'react-macro-rings'
 
 export default function Dashboard({ totals, goals }) {
   return (

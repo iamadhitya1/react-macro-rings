@@ -7,6 +7,7 @@
   "exports": {
     ".": "./src/index.js"
   },
+  "files": ["src", "demo.svg", "README.md", "LICENSE"],
   "keywords": [
     "react",
     "progress",
