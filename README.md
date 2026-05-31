@@ -9,6 +9,10 @@
 
 **3 components. Zero dependencies. Pure SVG + inline styles.**
 
+<div align="center">
+  <img src="./demo.svg" alt="react-macro-rings demo" width="520"/>
+</div>
+
 ---
 
 ## Components
