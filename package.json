@@ -9,19 +9,17 @@
   },
   "files": ["src", "demo.svg", "README.md", "LICENSE"],
   "keywords": [
-    "react",
-    "progress",
-    "ring",
-    "circular",
-    "nutrition",
-    "macros",
-    "calories",
-    "fitness",
-    "dashboard",
-    "svg",
-    "animation"
+    "react", "progress", "ring", "circular", "nutrition", "macros",
+    "calories", "fitness", "dashboard", "svg", "animation",
+    "react-progress-ring", "calorie-tracker", "macro-tracker",
+    "health-dashboard", "react-nutrition", "fitness-ui", "zero-dependencies"
   ],
-  "author": "M Adhitya",
+  "author": {
+    "name": "M. Adhitya",
+    "url": "https://iamadhitya.vercel.app",
+    "email": "adhitya5119@gmail.com"
+  },
+  "homepage": "https://iamadhitya.vercel.app",
   "license": "MIT",
   "peerDependencies": {
     "react": ">=17.0.0"
