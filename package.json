@@ -1,18 +1,37 @@
 {
   "name": "react-macro-rings",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Animated circular progress rings for React — MacroRing, CalorieRing, MacroRingGroup. Zero dependencies.",
   "type": "module",
   "main": "./src/index.js",
   "exports": {
     ".": "./src/index.js"
   },
-  "files": ["src", "demo.svg", "README.md", "LICENSE"],
+  "files": [
+    "src",
+    "demo.svg",
+    "README.md",
+    "LICENSE"
+  ],
   "keywords": [
-    "react", "progress", "ring", "circular", "nutrition", "macros",
-    "calories", "fitness", "dashboard", "svg", "animation",
-    "react-progress-ring", "calorie-tracker", "macro-tracker",
-    "health-dashboard", "react-nutrition", "fitness-ui", "zero-dependencies"
+    "react",
+    "progress",
+    "ring",
+    "circular",
+    "nutrition",
+    "macros",
+    "calories",
+    "fitness",
+    "dashboard",
+    "svg",
+    "animation",
+    "react-progress-ring",
+    "calorie-tracker",
+    "macro-tracker",
+    "health-dashboard",
+    "react-nutrition",
+    "fitness-ui",
+    "zero-dependencies"
   ],
   "author": {
     "name": "M. Adhitya",
