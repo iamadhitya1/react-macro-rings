@@ -6,13 +6,31 @@
 ![Zero Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)
 ![React](https://img.shields.io/badge/React-17%2B-61DAFB?logo=react)
 
-> Animated circular progress rings for React. Built for nutrition, fitness, and dashboard apps.
+> Animated SVG circular progress rings for React — built for nutrition trackers, fitness dashboards, and health apps.
 
 **3 components. Zero dependencies. Pure SVG + inline styles.**
 
 <div align="center">
   <img src="./demo.svg" alt="react-macro-rings demo" width="520"/>
 </div>
+
+---
+
+## When to use this
+
+Use `react-macro-rings` when:
+- You're building a **nutrition tracker, calorie counter, or macro dashboard** and need animated ring progress indicators
+- You want **pure SVG rings** with no canvas, no chart library, no stylesheet to import
+- You need rings that work in **dark-mode apps** out of the box (track color is transparent by default)
+- You want to display **protein / carbs / fat / calorie progress** with a single component
+
+Not the right fit if you need full chart types (bar, line, pie) — use Recharts or Victory for that. These rings are purpose-built for circular progress display.
+
+---
+
+## Why not react-circular-progressbar?
+
+`react-circular-progressbar` renders a single ring with a label. `react-macro-rings` ships three purpose-built components for nutrition UIs: a macro ring group that renders multiple rings from a data array, a calorie ring with built-in overflow color and a progress bar, and a single configurable ring for anything else. No CSS file to import, no stylesheet conflicts.
 
 ---
 
@@ -101,7 +119,7 @@ import { MacroRingGroup } from 'react-macro-rings'
 ### `<CalorieRing>`
 
 ```jsx
-import { CalorieRing } from './react-macro-rings/src'
+import { CalorieRing } from 'react-macro-rings'
 
 <CalorieRing
   value={850}
@@ -167,7 +185,7 @@ Built from the real implementation powering **[Sage](https://joinsage.vercel.app
 
 ## Author
 
-**[M. Adhitya](https://iamadhitya.vercel.app)** — Founder of [Rewrite Labs](https://rewritelabs.vercel.app), final-year B.Tech Computer Engineering student at IITRAM Ahmedabad. Builds AI products and open source libraries.
+**[M. Adhitya](https://iamadhitya.vercel.app)** — Founder, [Rewrite Labs](https://rewritelabs.vercel.app)
 
 ## License
 
