@@ -1,6 +1,6 @@
 {
   "name": "react-macro-rings",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Animated circular progress rings for React — MacroRing, CalorieRing, MacroRingGroup. Zero dependencies.",
   "type": "module",
   "main": "./src/index.js",
