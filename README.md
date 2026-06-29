@@ -185,7 +185,7 @@ Built from the real implementation powering **[Sage](https://joinsage.vercel.app
 
 ## Author
 
-**[M. Adhitya](https://iamadhitya.vercel.app)** — Founder, [Rewrite Labs](https://rewritelabs.vercel.app)
+**[M. Adhitya](https://iamadhitya.vercel.app)** — Builder, [Rewrite Labs](https://rewritelabs.vercel.app) · [Newsletter](https://adhitya.beehiiv.com/)
 
 ## License
 
